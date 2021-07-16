@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: rgb(130, 202, 178);
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items:center;
+    margin: 0 20%;
+    color: rgb(148, 147, 147);
+    height: 93.7vh;
+}
+
+main div img {
+    height: 100%;
+    width: 500px;
+}
+
+main div p {
+    margin-left: 50px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 5%;
+}
+
